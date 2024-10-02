@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/ecommerce">
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
