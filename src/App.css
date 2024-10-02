@@ -51,7 +51,7 @@ body {
   height: 24px;
 }
 
-.navbar .toggle-button {
+/* .navbar .toggle-button {
   
   display: none;
   flex-direction: column;
@@ -92,7 +92,7 @@ body {
   .navbar .toggle-button {
     display: flex;
   }
-}
+} */
 
 
 

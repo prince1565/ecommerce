@@ -21,13 +21,12 @@ export default function Navbar() {
     </div>
     
     <div className="nav-links">
-     
       <Link to="/cart"><img src="https://cdn-icons-png.flaticon.com/128/1170/1170678.png" alt="Cart"/><sup>
       <span className="float-end">{items.length}</span></sup></Link>
     </div>
-    <div className="toggle-button" onClick={toggleMenu}>
+    {/* <div className="toggle-button" onClick={toggleMenu}>
       
-    </div>
+    </div> */}
   </nav>
   
     </div>
